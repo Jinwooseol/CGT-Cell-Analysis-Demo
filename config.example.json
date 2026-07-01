@@ -1,0 +1,16 @@
+{
+  "sensor_map": "reference_data/ref_sensor_map_hd.tif",
+  "marker_7x7": "reference_data/ref_marker_position_7x7.csv",
+  "marker_5x5": "reference_data/ref_marker_position_5x5.csv",
+  "well_csv": "reference_data/ref_well_position.csv",
+  "ai_model_weights_path": "models/demo_model_weights.pth",
+  "batch_size": 32,
+  "confidence_threshold": 0.5,
+  "image_size": 224,
+  "use_gpu": true,
+  "use_half_precision": false,
+  "output_format": "csv",
+  "include_metadata": true,
+  "num_workers": 4,
+  "developer_mode": false
+}

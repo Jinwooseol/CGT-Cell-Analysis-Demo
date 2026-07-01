@@ -1,0 +1,23 @@
+# Normalize line endings on commit; check out platform-native.
+* text=auto
+
+# Scripts that must keep their native endings.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.sh    text eol=lf
+
+# Treat known binary assets as binary (no diff/merge, no EOL conversion).
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ico   binary
+*.tif   binary
+*.tiff  binary
+*.pth   binary
+*.pt    binary
+*.xlsx  binary
+
+# Collapse generated/vendored noise in GitHub language stats and diffs.
+reference_data/** linguist-vendored
+assets/**         linguist-documentation
+docs/**           linguist-documentation

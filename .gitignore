@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+*.spec.bak
+
+# PyInstaller runtime output
+*.manifest
+
+# Local runtime configuration (use config.example.json as the template)
+config.json
+
+# Pipeline outputs / working directories
+output/
+outputs/
+work/
+runs/
+logs/
+
+# Model weights and large binaries (kept out of version control)
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Local datasets (only commit small, shareable samples explicitly)
+sample_data/**
+!sample_data/README.md
+!sample_data/.gitkeep
+
+# Spreadsheet / scratch exports
+*.xlsx
+*.csv.bak
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
